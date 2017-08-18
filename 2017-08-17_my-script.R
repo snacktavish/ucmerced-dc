@@ -1,5 +1,6 @@
 ## my script from data carpentry UC Merced
 ## Emily Jane McTavish ejmctavish@gmail.com
+##August 17-18, 2017
 
 ## Download data----
 #download.file("https://ndownloader.figshare.com/files/2292169", 
@@ -18,6 +19,5 @@ hist(surveys$month, col='grey', breaks=12)
 nrow(surveys[surveys$month==1 | surveys$month==2, ])
 
 length(which(surveys$month<3))
-
 
 
