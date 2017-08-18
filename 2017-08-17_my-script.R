@@ -10,7 +10,7 @@
 surveys <- read.csv("data/portal_data_joined.csv")
 head(surveys)
 tail(surveys)
-?tail
+
 str(surveys)
 
 hist(surveys$month, col='grey', breaks=12)
